@@ -1,0 +1,107 @@
+*.pyc
+venv
+.env-kirk
+*/_build/*
+
+### Rails
+# Ignore bundler config.
+/.bundle
+
+# Ignore the default SQLite database.
+/db/*.sqlite3
+/db/*.sqlite3-journal
+
+# Ignore all logfiles and tempfiles.
+/log/*.log
+/tmp
+
+
+### Misc
+# Byte-compiled / optimized / DLL files
+__pycache__/
+*.py[cod]
+
+
+# Distribution / packaging
+.env
+*sublime-project
+*sublime-workspace
+.Python
+env/
+bin/
+gen/
+build/
+develop-eggs/
+# dist/
+eggs/
+lib/
+lib64/
+parts/
+sdist/
+var/
+*.egg-info/
+.installed.cfg
+*.egg
+
+
+### Django stuff:
+*.log
+*.pot
+
+
+#### Phonegap/iOS/Android
+# Global
+.idea
+
+# ANDROID / ECLIPSE
+
+# built application files
+*.apk
+*.ap_
+*.log
+
+# files for the dex VM
+*.dex
+
+# Java class files
+*.class
+
+# generated files - android project subfolder
+Android/bin/
+Android/gen/
+Android/assets/
+
+## IGNORE GENERATED FILES. BUILT ON THE FLY.
+platforms/*
+## IGNORE PLUGINS. ADD MANUALLY FROM README.MD or we'll later write a setup script
+plugins/*
+
+# Local configuration file (sdk path, etc)
+local.properties
+
+# IOS / Xcode
+build/*
+*.pbxuser
+!default.pbxuser
+*.mode1v3
+!default.mode1v3
+*.mode2v3
+!default.mode2v3
+*.perspectivev3
+!default.perspectivev3
+*.xcworkspace
+!default.xcworkspace
+xcuserdata
+profile
+*.moved-aside
+IOS/www/
+
+# OSX
+.DS_Store
+
+# Thumbnails
+._*
+
+# Files that might appear on external disk
+.Spotlight-V100
+.Trashes

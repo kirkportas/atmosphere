@@ -1,0 +1,20 @@
+# COMMANDS
+alias v="vim"
+alias vi="vim"
+alias l="less"
+alias c="cat"
+alias ll="ls -lhG"
+alias la="ls -lhaG"
+alias ps="ps -aef | grep -i"
+alias lc="ls --ignore=\"*.pyc\""
+alias ls="ls -GF"
+
+# DEV COMMANDS
+alias go="foreman start"
+alias goprod="foreman start --env=.prod.env"
+alias gostage="foreman start --env=.staging.env"
+alias godev="foreman start --env=.dev.env"
+
+alias g="git"
+alias activate="source venv/bin/activate;"
+alias strip="find . -name \*.pyc -delete"
